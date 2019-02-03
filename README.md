@@ -1,0 +1,3 @@
+Some katas in haskell
+
+
