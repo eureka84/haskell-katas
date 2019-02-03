@@ -1,0 +1,22 @@
+name:                fizzBuzz
+version:             0.1.0.0
+github:              "githubuser/fizzBuzz"
+
+dependencies:
+  - base
+
+library:
+  exposed-modules: Lib
+  source-dirs: src
+  ghc-options: -Wall
+  # dependencies:
+  # - foo       # List here the packages you
+  # - bar       # want to use in your solution.
+
+tests:
+  test:
+    main: Spec.hs
+    source-dirs: test
+    dependencies:
+      - fizzBuzz
+      - hspec
